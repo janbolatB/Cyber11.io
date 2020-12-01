@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body,html{
+			margin: 0;
+			padding: 0;
+		}
+		.div1{
+			background: green;
+			height: 150px;
+			width: 100%;
+		}
+		.div2{
+			height: 100%;
+			width: 15vw;
+			text-align: center;
+			float: left;
+		}
+		p{
+			font-size: 2.5em;
+			margin: 0;
+			padding-top: 40px;
+		}
+		.div2:hover{
+			background: gray;
+		}
+		.div2-2{
+			border-bottom: 5px solid black;
+		}
+		.box{
+			width: 95vw;
+			height: 70vh;
+			margin-left: 2.5%;
+			margin-top: 2.5%;
+			background: green;
+			animation-name: boxmove;
+			animation-duration: 3s;
+		}
+		@keyframes boxmove{
+			0%{
+				opacity: 0;
+			}
+			100%{
+				opacity: 1;
+			}
+		}
+		.line{
+			width: 28.5%;
+			height: 30vh;
+			border: 1px solid black;
+			text-align: center;
+			margin: 2vw;
+			float: left;
+		}
+		.line:hover{
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<div class="div2 div2-2">
+			<a href="123.html">
+				<p>Home</p>
+			</a>
+		</div>
+		<div class="div2">
+			<a href="about.html">
+				<p>About</p>
+			</a>
+		</div>
+		<div class="div2">
+			<a href="contact.html">
+				<p>Contact</p>
+			</a>
+		</div>
+	</div>
+	<div class="project">
+		<div class="box">
+			<div class="line">
+				<p>Bla Bla Bla</p>
+			</div>
+			<div class="line">
+				<p>Bla Bla Bla</p>
+			</div>
+			<div class="line">
+				<p>Bla Bla Bla</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
